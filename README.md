@@ -5,31 +5,32 @@
 
 ---
 
-I bridge foundation models and native runtime environments—building agentic workflows, Model Context Protocol (MCP) tooling, and production mobile systems.
+I bridge foundation models with native runtime environments—building agentic workflows, Model Context Protocol (MCP) systems, and production mobile architectures.
 
 ```
 $ kartik --status
-● Current Focus:  Agentic AI Orchestration & Tool Calling
-● Native Stack:   Kotlin 2.x, Jetpack Compose, KMP, Coroutines
-● Edge & AI:      MCP (stdio/SSE/JSON-RPC), Google Gemini, Cloudflare Workers
-● Drumming:       Polyrhythms & odd time signatures 🥁
+● Role:           Applied AI Engineer & GDE (Android)
+● Current Focus:  Agentic Orchestration, MCP Tooling, Multimodal Streaming
+● Edge & Cloud:   Cloudflare Workers (D1, R2), Ktor, Firebase, Docker
+● Native Mobile:  Kotlin 2.x, Jetpack Compose, KMP, Coroutines & Flow
+● Beyond Code:    Polyrhythmic drumming 🥁 & Formula 1 🏎️
 ```
 
 ---
 
-### 🕹️ Interactive Terminal & Cheat Sheet
+### 🕹️ Interactive CLI & Quick Start
 
 <details>
-<summary><b><code>$ npx preview-mcp --help</code></b> — Try my Universal MCP Server</summary>
+<summary><b><code>$ npx preview-mcp --help</code></b> — Universal MCP Server for AI Coding Environments</summary>
 <br>
 
-Connect your AI coding assistants (Claude Code, Cursor, Antigravity) to preview edge environments via standard stdio, SSE, or JSON-RPC:
+Connect AI coding agents (Claude Code, Antigravity, Cursor) directly to live edge previews via stdio, SSE, or JSON-RPC:
 
 ```bash
-# Run locally via stdio
+# Test locally via stdio
 npx preview-mcp
 
-# Or add to your Claude Code / Antigravity MCP config:
+# Claude Code / Antigravity config:
 {
   "mcpServers": {
     "preview": {
@@ -39,19 +40,35 @@ npx preview-mcp
   }
 }
 ```
+Public CLI bridge for the Cloudflare edge platform [`previews.kartikarora.me`](https://previews.kartikarora.me).  
 Repository: [kartikarora/preview-mcp](https://github.com/kartikarora/preview-mcp)
 </details>
 
 <details>
-<summary><b><code>$ git clone ICanHazStream</code></b> — Real-Time Gemini Multimodal Lab</summary>
+<summary><b><code>$ brew install kartikarora/klaat/klaat</code></b> — Interactive Codelabs CLI & Server</summary>
 <br>
 
-A hands-on workshop application exploring streaming audio/video frames into Gemini with Jetpack Compose:
+Modern Kotlin reimplementation of Google's Codelabs tools for authoring, parsing, and serving interactive documentation:
+
+```bash
+brew tap kartikarora/klaat
+brew install klaat
+
+# Serve Markdown/Google Doc codelabs locally with live reload:
+klaat serve .
+```
+Includes Homebrew taps [`homebrew-klaat`](https://github.com/kartikarora/homebrew-klaat) & snapshots.
+</details>
+
+<details>
+<summary><b><code>$ git clone ICanHazStream</code></b> — Real-Time Gemini Multimodal Streaming</summary>
+<br>
+
+Hands-on workshop project integrating live audio/video frame streaming into Google Gemini with Jetpack Compose:
 
 ```bash
 git clone https://github.com/kartikarora/ICanHazStream.git
 cd ICanHazStream
-# Built with modern Compose Material 3 & on-device streaming
 ```
 Repository: [kartikarora/ICanHazStream](https://github.com/kartikarora/ICanHazStream)
 </details>
@@ -60,7 +77,7 @@ Repository: [kartikarora/ICanHazStream](https://github.com/kartikarora/ICanHazSt
 <summary><b><code>$ gradle add rocketflag-kmp-sdk</code></b> — Feature Flags for Kotlin Multiplatform</summary>
 <br>
 
-Lightweight, type-safe feature flagging across Android & iOS:
+Type-safe, cross-platform configuration and feature flags on Maven Central:
 
 ```kotlin
 // build.gradle.kts
@@ -72,22 +89,35 @@ Repository: [kartikarora/rocketflag-kmp-sdk](https://github.com/kartikarora/rock
 </details>
 
 <details>
-<summary><b><code>$ kartik --easter-egg</code></b> — Random facts & trivia</summary>
+<summary><b><code>$ curl https://sports.kartikarora.me</code></b> — Social Sports Coordinator</summary>
 <br>
 
-- 🥁 When not architecting agentic systems, I'm behind a drum kit playing syncopated beats.
-- 🏎️ Weekend calendar is strictly blocked out for Formula 1 race weekends.
-- 🇦🇺 Based out of Sydney, organizing local Android & AI community tech talks.
+Live web platform streamlining scheduling, team availability, and match coordination:
+
+- Production App: [sports.kartikarora.me](https://sports.kartikarora.me)
+- Stack: Node.js, Express, Firebase Firestore & Authentication
+</details>
+
+<details>
+<summary><b><code>$ kartik --easter-egg</code></b> — Trivia & Offline Interests</summary>
+<br>
+
+- 🥁 Drummer obsessed with polyrhythms, ghost notes, and odd time signatures.
+- 🏎️ F1 calendar is always marked off.
+- 🇦🇺 Based in Sydney, actively speaking at GDG and mobile developer conferences.
 </details>
 
 ---
 
-### 🔨 Active Projects (Updated Past Year)
+### 🔨 Live & Active Projects (Updated Past Year)
 
-| Project | Stack | What It Does |
+| Project | Access / Stack | Description & Live URL |
 | :--- | :--- | :--- |
-| [**preview-mcp**](https://github.com/kartikarora/preview-mcp) | `TypeScript` · `MCP` · `Workers` | Universal Model Context Protocol server (stdio, SSE, JSON-RPC) for AI coding environments. |
-| [**ICanHazStream**](https://github.com/kartikarora/ICanHazStream) | `Kotlin` · `Gemini` · `Compose` | Real-time multimodal streaming and on-device intelligent Android workshop lab. |
-| [**rocketflag-kmp-sdk**](https://github.com/kartikarora/rocketflag-kmp-sdk) | `Kotlin` · `KMP` · `Maven` | Multiplatform feature flagging SDK for Android & iOS published on Maven Central. |
-| [**anylytics**](https://github.com/kartikarora/anylytics) | `Kotlin` · `Architecture` | Modular, provider-agnostic analytics abstraction library for Android apps. |
-| [**codelabs**](https://github.com/kartikarora/codelabs) | `Android` · `Curriculum` | Technical codelabs and workshop guides on modern Android and AI development. |
+| [**Previews**](https://previews.kartikarora.me) | 🚀 `Live App` · `Cloudflare Edge` | Ephemeral HTML preview hosting with per-project subdomains, Google OAuth, and D1/R2 storage. |
+| [**preview-mcp**](https://github.com/kartikarora/preview-mcp) | 🌐 `Open Source` · `MCP` · `Node` | Universal Model Context Protocol server (stdio, SSE, HTTP JSON-RPC) for AI coding environments. |
+| [**klaat**](https://github.com/kartikarora/homebrew-klaat) | 📦 `CLI Tool` · `Kotlin` · `Homebrew` | Modern Kotlin CLI authoring & serving tool for interactive codelabs (Google Codelabs reimplementation). |
+| [**ICanHazStream**](https://github.com/kartikarora/ICanHazStream) | 🌐 `Open Source` · `Kotlin` · `Gemini` | Real-time multimodal streaming and on-device intelligent Android workshop lab. |
+| [**Sports Coordinator**](https://sports.kartikarora.me) | 🚀 `Live App` · `Node` · `Firebase` | Social sports team management and fixture coordination app deployed in production. |
+| [**What Dog Should I Get?**](https://kartikarora.me) | 🤖 `AI App` · `Kotlin` · `Ktor` | Intelligent lifestyle matcher powered by Google Gemini API recommendations. |
+| [**rocketflag-kmp-sdk**](https://github.com/kartikarora/rocketflag-kmp-sdk) | 🌐 `Open Source` · `KMP` · `Maven` | Multiplatform feature flagging SDK for Android & iOS published on Maven Central. |
+| [**anylytics**](https://github.com/kartikarora/anylytics) | 🌐 `Open Source` · `Kotlin` · `Android` | Modular, provider-agnostic analytics abstraction library for Android apps. |
